@@ -45,3 +45,9 @@
     transform: translateY(200px);
   }
 }
+
+.spin {
+  border: none;
+  padding: 6px 25px;
+  font-size: 35px;
+}
