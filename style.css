@@ -1,6 +1,6 @@
-:root {
+/* :root {
   --speed: 5;
-}
+} */
 
 .machine {
   background-color: peru;
@@ -28,26 +28,67 @@
   text-align: center;
   font-size: 90px;
   line-height: 250px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.slot > .value {
+/* .slot > .value {
   animation-name: slotspin;
   animation-iteration-count: infinite;
   animation-duration: calc(1s / var(--speed));
-}
+} */
 
-@keyframes slotspin {
+/* @keyframes slotspin {
   0% {
     transform: translateY(-200px);
   }
   100% {
     transform: translateY(200px);
   }
-}
+} */
 
 .spin {
   border: none;
   padding: 6px 25px;
   font-size: 35px;
+}
+
+#slot1,
+#slot2,
+#slot3 {
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.a1 {
+  background-image: url("Assets/Today.png");
+}
+.a2 {
+  background-image: url("Assets/Tomorrow.png");
+}
+.a3 {
+  background-image: url("Assets/DayAfterTomorrow.png");
+}
+.a4 {
+  background-image: url("Assets/Die.png");
+}
+.a5 {
+  background-image: url("Assets/DoNothing.png");
+}
+.a6 {
+  background-image: url("Assets/EatYourFavoriteIcecream.png");
+}
+.a7 {
+  background-image: url("Assets/YouCan.png");
+}
+
+.a7 {
+  background-image: url("Assets/YouMight.png");
+}
+.a7 {
+  background-image: url("Assets/YouWill.png");
 }
